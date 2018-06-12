@@ -1,0 +1,76 @@
+-------------------------------------------------------------------------------
+Test set: com.cg.mypaymentapp.test.TestClass
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 18, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec <<< FAILURE!
+com.cg.mypaymentapp.test.TestClass.testCreateAccountForNullName()  Time elapsed: 0.013 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.cg.mypaymentapp.test.TestClass.testCreateAccountForNullName(TestClass.java:41)
+
+com.cg.mypaymentapp.test.TestClass.testShowBalanceForInvalidMobileNo()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.cg.mypaymentapp.test.TestClass.testShowBalanceForInvalidMobileNo(TestClass.java:61)
+
+com.cg.mypaymentapp.test.TestClass.testDepositAmountForInvalidMobileNumber()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.cg.mypaymentapp.test.TestClass.testDepositAmountForInvalidMobileNumber(TestClass.java:101)
+
+com.cg.mypaymentapp.test.TestClass.testDepositAmountForNegativeAmount()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.cg.mypaymentapp.test.TestClass.testDepositAmountForNegativeAmount(TestClass.java:106)
+
+com.cg.mypaymentapp.test.TestClass.testWithdrawAmountForNegativeAmount()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.cg.mypaymentapp.test.TestClass.testWithdrawAmountForNegativeAmount(TestClass.java:134)
+
+com.cg.mypaymentapp.test.TestClass.testFundTransferForNullSourceMobileNo()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.cg.mypaymentapp.test.TestClass.testFundTransferForNullSourceMobileNo(TestClass.java:83)
+
+com.cg.mypaymentapp.test.TestClass.testCreateAccountForNegativeAmount()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.cg.mypaymentapp.test.TestClass.testCreateAccountForNegativeAmount(TestClass.java:46)
+
+com.cg.mypaymentapp.test.TestClass.testFundTransferForInvalidMobileNoData()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.cg.mypaymentapp.test.TestClass.testFundTransferForInvalidMobileNoData(TestClass.java:88)
+
+com.cg.mypaymentapp.test.TestClass.testWithdrawAmountForInvalidMobileNumber()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.cg.mypaymentapp.test.TestClass.testWithdrawAmountForInvalidMobileNumber(TestClass.java:129)
+
+com.cg.mypaymentapp.test.TestClass.testDepositAmountForZero()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.cg.mypaymentapp.test.TestClass.testDepositAmountForZero(TestClass.java:111)
+
+com.cg.mypaymentapp.test.TestClass.testShowBalanceForValidMobileNo()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.cg.mypaymentapp.test.TestClass.testShowBalanceForValidMobileNo(TestClass.java:67)
+
+com.cg.mypaymentapp.test.TestClass.testWithdrawAmountForZero()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.cg.mypaymentapp.test.TestClass.testWithdrawAmountForZero(TestClass.java:139)
+
+com.cg.mypaymentapp.test.TestClass.testFundTransferForNullData()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.cg.mypaymentapp.test.TestClass.testFundTransferForNullData(TestClass.java:77)
+
+com.cg.mypaymentapp.test.TestClass.testWithdrawAmountForLowBalance()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.cg.mypaymentapp.test.TestClass.testWithdrawAmountForLowBalance(TestClass.java:154)
+
+com.cg.mypaymentapp.test.TestClass.testDepositAmountForValidAmount()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.cg.mypaymentapp.test.TestClass.testDepositAmountForValidAmount(TestClass.java:116)
+
+com.cg.mypaymentapp.test.TestClass.testWithdrawAmountForValidAmount()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.cg.mypaymentapp.test.TestClass.testWithdrawAmountForValidAmount(TestClass.java:144)
+
+com.cg.mypaymentapp.test.TestClass.testFundTransferForInvalidAmount()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.cg.mypaymentapp.test.TestClass.testFundTransferForInvalidAmount(TestClass.java:94)
+
+com.cg.mypaymentapp.test.TestClass.testCreateAccountForCorrectData()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.cg.mypaymentapp.test.TestClass.testCreateAccountForCorrectData(TestClass.java:52)
+
